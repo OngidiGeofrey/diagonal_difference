@@ -1,0 +1,22 @@
+
+Write a function that given a square matrix, it will return the absolute difference between the
+sum of its diagonals. (20 marks) (test_name=diagonal_difference)
+For example, given:
+1 2 3
+4 5 6
+9 8 9
+The left to right diagonal summation is 1 + 5 + 9 = 15.
+The right to left diagonal summation is 3 + 5 + 9 = 17.
+The absolute difference will be |15 – 17| = 2.
+Hint: Consider the input to the function as an array.
+
+
+Solution
+
+
+
+Calculate the sums across the two diagonals of a square matrix.
+Along the first diagonal of the matrix, row index = column index i.e mat[i][j] lies on the first diagonal if i = j.
+Along the other diagonal, row index = n – 1 – column index i.e mat[i][j] lies on the second diagonal if i = n-1-j. 
+By using two loops we traverse the entire matrix and calculate the sum across the diagonals of the matrix.
+Below is the implementation of this approach: 
