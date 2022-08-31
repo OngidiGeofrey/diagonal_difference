@@ -22,3 +22,15 @@ function diagonal_difference(array) {
   return Math.abs(d1 - d2);
 }
 
+/* Driver program to test above function */
+     
+let n = 3;
+         
+let array =
+[
+    [1, 2, 3],
+    [4 , 5, 6],
+    [9, 8, 9]
+];
+
+document.write(difference(array, n));
