@@ -38,7 +38,8 @@ function diagonal_difference(array){
 
 /* Driver program to test above function */
           
-let arr = [[1, 2, 3],
+let arr = 
+    [[1, 2, 3],
     [4 , 5, 6],
     [9, 8, 9]];
 
